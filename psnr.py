@@ -8,7 +8,7 @@ import utils
 import tqdm
 
 csv_filename = sys.argv[1]
-DATA_DIR='/home/esoc/datasets/SuperResolution/'
+DATA_DIR='./datasets/'
 RESULT_DIR=sys.argv[2]
 
 #Benchmarks=['Set5', 'Set14', 'DIV2K_valid_HR', 'BSDS100', 'Urban100']
